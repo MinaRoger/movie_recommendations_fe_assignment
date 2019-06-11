@@ -1,6 +1,6 @@
 # Movie Recommendations Fe Assignment
 # Updates:
- -Added a header and slogan for the website./n
+ -Added a header and slogan for the website.
  -Added Arabic language.
  -Added a list where the user can:
    1)Login if he is already a member in the website.
