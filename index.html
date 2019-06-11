@@ -26,17 +26,37 @@
 		
 
 		<div id="site-content">
+
 			<header class="site-header">
 				<div class="container">
 
 					<!-- ThinkBIG Logo Start-->
 					<a href="http://think-big.solutions/" id="branding">
-						<img src="logo.png" width="130" height="100" alt="" class="logo">
+						<img src="logo.png" width="100" height="80" alt="" class="logo">
 					</a>
+					<a style= "float: right " href=#> <u>العربية </u> </a>
+					<br>
+
+					<span class="Slogan">If you love movies , you'll love us.</span>
 					<!-- ThinkBIG Logo End-->
 
 					<!-- Subscribe START-->
-					<div class="col-md-2" style="float: right">
+					<div>
+						<ul class = "headerul" >
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Sugestion</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<!-- EMAIL & Authentication Token Handling END-->
+				</div>
+
+			</header>
+
+			<div class ="container">
+				
+				<div class="col-md-2" style="float: right">
 						<div class="contact-form">
 							<input type="submit"
 								   disabled=disabled
@@ -65,29 +85,61 @@
 						</div>
 					</div>
 					<!-- EMAIL & Authentication Token Handling END-->
-				</div>
-
-			</header>
+			</div>
 
 
+					
 			<main class="main-content">
+					<div class="ads" style="float:right;">
+						<p>ADS banner </p>
+
+					</div>
+
+				
+
 				<div class="container">
 					<div class="page">
 
 
 						<div class="filters">
-							<select name="#" id="#" placeholder="Choose Category">
-								<option value="#">Action</option>
-								<option value="#">Drama</option>
-								<option value="#">Fantasy</option>
-								<option value="#">Horror</option>
-								<option value="#">Adventure</option>
-							</select>
-							<select name="#" id="#">
+							
+								<b>Genre:</b>
+								<select name="#" id="#" placeholder="Choose Category">
+									<option value="#">Action</option>
+									<option value="#">Drama</option>
+									<option value="#">Fantasy</option>
+									<option value="#">Horror</option>
+									<option value="#">Adventure</option>
+								</select>
+							
+							<b>Year:</b>
+								<select name="#" id="#">
 								<option value="#">2012</option>
 								<option value="#">2013</option>
 								<option value="#">2014</option>
 							</select>
+						
+							
+							<b>Rating:</b>
+									<select name="#" id="#">
+										<option value="#">All</option>
+										
+										<option value="#">5★</option>
+										<option value="#">4★</option>
+										<option value="#">3★</option>
+										<option value="#">2★</option>
+										<option value="#">1★</option>
+
+									</select>
+							<b>Quality:</b>
+									<select name="#" id="#">
+										<option value="#">All</option>
+										<option value="#">1080</option>
+										<option value="#">720</option>
+										<option value="#">3D</option>
+										
+
+									</select>
 
 							<form class="search-form" style="float: right">
 								<input id="search_input" type="text" placeholder="Search...">
@@ -106,6 +158,7 @@
 					</div>
 
 				</div> <!-- .container -->
+
 			</main>
 
 
@@ -176,7 +229,7 @@
 						</div>
 					</div> <!-- .row -->
 
-					<div class="colophon">Copyright 2014 Company name, Designed by Themezy. All rights reserved</div>
+					<div class="colophon">&#169 Copyright 2014 Company name, Designed by Themezy. All rights reserved</div>
 				</div> <!-- .container -->
 
 			</footer>
