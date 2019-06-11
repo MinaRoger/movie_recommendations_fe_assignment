@@ -23,3 +23,5 @@
   -Added right banner for advertisements.
    
    -Fixed Bug of movie title.
+
+![alt text](https://ibb.co/Gvjc75H)
