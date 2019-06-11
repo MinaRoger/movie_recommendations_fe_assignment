@@ -24,4 +24,4 @@
    
    -Fixed Bug of movie title.
 
-![alt text](https://ibb.co/Gvjc75H)
+![ScreenShot](https://i.ibb.co/Fbtg6DH/Capture.png)
